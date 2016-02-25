@@ -1,47 +1,102 @@
-<html><head>
-  <title>
-    REVIEWS PAGE</title>
-    <script src="js/jquery.min.js"></script>
-<script src="js/semantic.min.js"></script>
-<link rel="stylesheet" type="text/css" class="ui" href="css/semantic.min.css">
-<link rel="stylesheet" type="text/css" href="css/signin.css">
-</head>
-<body>
-
-      <div class="ui comments">
-  <div class="comment">
-    <a class="avatar">
-
-    </a>
-
-    <div class="ui statistic">
-      <div class="label">
-        ReViews
-      </div>
-      <div class="value">
-        40,509
-      </div>
 
 
 
-        <form action="#" method="post">
-        USERNAME <input type="text" placeholder="UserName">
-        <p>REVIEW RATING<select>
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-            <option value="5">5</option>
-        </select></p>
-        <p>SPECIFIC CODE<input type="text"></p>
-        <form class="ui reply form">
-          <div class="field">
-            <textarea></textarea>
-          </div>
-         </form>
-        <input type="submit" value="Send">
-    </form>
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Custom Login Form Styling</title>
+        <meta name="description" content="Custom Login Form Styling with CSS3" />
+        <meta name="keywords" content="css3, login, form, custom, input, submit, button, html5, placeholder" />
+        <meta name="author" content="Codrops" />
+        <link rel="shortcut icon" href="../favicon.ico">
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <title>
+          REVIEWS PAGE</title>
+          <script src="js/jquery.min.js"></script>
+      <script src="js/semantic.min.js"></script>
+      <link rel="stylesheet" type="text/css" class="ui" href="css/semantic.min.css">
+      <link rel="stylesheet" type="text/css" href="css/signin.css">
+		<script src="js/modernizr.custom.63321.js"></script>
+		<!--[if lte IE 7]><style>.main{display:none;} .support-note .note-ie{display:block;}</style><![endif]-->
+		<style>
+			@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700|Handlee);
+			body {
+				background: #eedfcc url(images/bg3.jpg) no-repeat center top;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				background-size: cover;
+			}
+			.container > header h1,
+			.container > header h2 {
+				color: #fff;
+				text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+			}
+
+
+      <link rel="stylesheet" type="text/css" class="ui" href="css/samp.css">
+      <style>
+      input[type=text] {
+        width: 130px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: white;
+        background-position: 10px 10px;
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 40px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+    }
+    input[type=text]:focus {
+        width: 100%;}
+        </style>
 
 
 
-</div></div></div></body></html>
+
+
+		</style>
+    </head>
+    <body style="text-align:center">
+
+
+          <a class="avatar">
+
+          </a>
+
+          <div class="ui statistic">
+            <div class="label">
+              ReViews
+            </div>
+            <div class="value">
+              40,509
+            </div><br><br><br><br>
+
+  <form action="#" method="post">
+            PRODUCT NAME <input type="text" placeholder="PRODUCTNAME"><br><br>
+              <p>REVIEW RATING<select>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                  <option value="5">5</option>
+              </select></p><br><br>
+              SUBJECT<input type="text">
+              <form class="ui reply form">
+                <div class="field">
+                  <textarea placeholder="Comments Here"></textarea>
+                </div>
+               </form>
+              <input type="submit" value="Submit">
+          </form>
+
+
+
+      </div></div></div>
+    </body>
+</html>

@@ -1,40 +1,87 @@
-<html><head>
-  <title>
-    REVIEWS PAGE</title>
-    <script src="js/jquery.min.js"></script>
-<script src="js/semantic.min.js"></script>
-<link rel="stylesheet" type="text/css" class="ui" href="css/semantic.min.css">
-
-<script>
 
 
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Custom Login Form Styling</title>
+        <meta name="description" content="Custom Login Form Styling with CSS3" />
+        <meta name="keywords" content="css3, login, form, custom, input, submit, button, html5, placeholder" />
+        <meta name="author" content="Codrops" />
+        <link rel="shortcut icon" href="../favicon.ico">
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <title>
+          ADDED REVIEWS PAGE</title>
+          <script src="js/jquery.min.js"></script>
+      <script src="js/semantic.min.js"></script>
+      <link rel="stylesheet" type="text/css" class="ui" href="css/semantic.min.css">
+
+      <script>
 $(document).ready(function(){
-  $('.ui.rating')
-    .rating()
-  ;
-});
+        $('.ui.rating')
+          .rating()
+        ;
+      });
+		<script src="js/modernizr.custom.63321.js"></script>
+		<!--[if lte IE 7]><style>.main{display:none;} .support-note .note-ie{display:block;}</style><![endif]-->
+		<style>
+			@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700|Handlee);
+			body {
+				background: #eedfcc url(images/bg3.jpg) no-repeat center top;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				background-size: cover;
+			}
+			.container > header h1,
+			.container > header h2 {
+				color: #fff;
+				text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+			}
+</style>
+      <style>
+      input[type=text] {
+        width: 130px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: white;
+        background-position: 10px 10px;
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 40px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+    }
+    input[type=text]:focus {
+        width: 100%;}
 
-</script>
-</script>
-</head>
-<body>
-  <div class="ui card">
-  <div class="ui slide masked reveal image">
-    <img src="images/iphone6.jpg" class="visible content">
-    <img src="images/iphone_6s.jpg" class="hidden content">
-  </div>
-  <div class="content">
-    <a class="header">Company Name &amp; Brand Name</a>
-    <div class="meta">
-      <span class="date">Specification</span>
-    </div>
-  </div>
-  <div class="extra content">
-    <a>
-      <i class="users icon"></i>
-    reviews
-    </a>
-    <div class="ui rating" data-rating="3" data-max-rating="5"></div>
+        </style>
 
-  </div>
-</body></html>
+    </head>
+    <body style="text-align:center !important" >
+      <div class="ui card" style="margin-left:35%">
+      <div class="ui slide masked reveal image">
+        <img src="images/iphone6.jpg" class="visible content"width="100%"height="auto">
+        <img src="images/iphone_6s.jpg" class="hidden content">
+      </div>
+      <div class="content">
+        <a class="header">Company Name &amp; Brand Name</a>
+        <div class="meta">
+          <span class="date">Specification</span>
+        </div>
+      </div>
+      <div class="extra content">
+        <a>
+          <i class="users icon"></i>
+        reviews
+        </a>
+        <div class="ui rating" data-rating="3" data-max-rating="5"></div>
+
+      </div>
+    </body>
+</html>

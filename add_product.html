@@ -1,58 +1,92 @@
 
+
+
+
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <link rel="stylesheet" type="text/css" class="ui" href="css/samp.css">
-  <style>
-  input[type=text] {
-    width: 130px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-    background-color: white;
-    background-position: 10px 10px;
-    background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
-}
-input[type=text]:focus {
-    width: 100%;}
-    </style>
-</head>
-<body>
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Custom Login Form Styling</title>
+        <meta name="description" content="Custom Login Form Styling with CSS3" />
+        <meta name="keywords" content="css3, login, form, custom, input, submit, button, html5, placeholder" />
+        <meta name="author" content="Codrops" />
+        <link rel="shortcut icon" href="../favicon.ico">
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script src="js/modernizr.custom.63321.js"></script>
+		<!--[if lte IE 7]><style>.main{display:none;} .support-note .note-ie{display:block;}</style><![endif]-->
+		<style>
+			@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700|Handlee);
+			body {
+				background: #eedfcc url(images/bg3.jpg) no-repeat center top;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				background-size: cover;
+			}
+			.container > header h1,
+			.container > header h2 {
+				color: #fff;
+				text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+			}
 
 
-  
-  <p style="
-      text-align: center;
-  ">ADD PRODUCT</p><br><br><br>
+      <link rel="stylesheet" type="text/css" class="ui" href="css/samp.css">
+      <style>
+      input[type=text] {
+        width: 130px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: white;
+        background-position: 10px 10px;
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 40px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+    }
+    input[type=text]:focus {
+        width: 100%;}
+        </style>
 
 
 
-<div style="text-align:center;">
-  <p class="form">
-      <input type="text" id="path" />
-  	<label class="add-photo-btn">upload<span><input type="file" id="myfile" name="myfile" /></span>
-  </label>
-  </p>
-  <br><br><br>
-<div style="color:white;">
-<form>
-  NAME OF PRODUCT:<br>
-  <input type="text" placeholder="NAME OF PRODUCT">
-  <br>
-  SPECIFICATION:<br>
-  <input type="text" placeholder="SPECIFICATION">
-  <br>
-  BRAND:<br>
-  <input type="text" placeholder="BRAND-NAME">
-  <br>
-  COMPANY:<br>
-  <input type="text" placeholder="COMPANY">
-  <br><br>
-  <input type="submit" value="Submit">
-</form>
-</div>
-</body>
+
+
+		</style>
+    </head>
+    <body>
+      <h3><p style="
+          text-align: center;
+      "><b>ADD PRODUCT</b></p></h3>
+      <br><br><br>
+
+
+
+    <div style="text-align:center;">
+      <p class="form">
+          <input type="text" id="path" />
+        <label class="add-photo-btn">upload<span><input type="file" id="myfile" name="myfile" /></span>
+      </label>
+      </p>
+      <br><br><br>
+    <div style="color:white;">
+    <form>
+      NAME OF PRODUCT:<br>
+      <input type="text" placeholder="NAME OF PRODUCT">
+      <br>
+      SPECIFICATION:<br>
+      <input type="text" placeholder="SPECIFICATION">
+      <br>
+      BRAND:<br>
+      <input type="text" placeholder="BRAND-NAME">
+      <br>
+      COMPANY:<br>
+      <input type="text" placeholder="COMPANY">
+      <br><br>
+      <input type="submit" value="Submit">
+    </form>
+    </div>
+    </body>
 </html>

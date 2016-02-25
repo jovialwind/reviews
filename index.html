@@ -23,6 +23,16 @@ a:hover {
 a:active {
     color: yellow;
 }
+
+
+body {
+  background: #eedfcc url(images/bg3.jpg) no-repeat center top !important;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+
 </style>
 </head>
 
@@ -30,10 +40,11 @@ a:active {
     <body>
 
 
-      <div class="ui inverted vertical masthead center aligned segment">
+      <div class="ui vertical masthead center aligned segment"  style="border:none !important;">
 
           <div class="ui container">
-            <div class="ui large secondary inverted pointing menu">
+            <div class="ui large secondary inverted pointing menu" style="border:none !important;position:fixed">
+
               <a class="toc item">
                 <i class="sidebar icon"></i>
               </a>
@@ -41,7 +52,7 @@ a:active {
               <a class="item" href="add_product.html">ADD PRODUCT</a>
               <a class="item" href="project_added.html">ADDED PRODUCT</a>
               <a class="item"href="review.html">REVIEWS</a>
-              <div class="right item">
+              <div class="right item"style="margin-right:35%">
                 <a class="ui inverted button" href="signin.html"> Log in</a>
                 <a class="ui inverted button" href="signup.html">Sign Up</a>
               </div>
@@ -49,6 +60,7 @@ a:active {
           </div>
 
           <div class="ui text container">
+<div style="height:50px"></div>
             <h1 class="ui inverted header">
             A WEBSITE FOR REVIEWING
             </h1>
@@ -57,7 +69,7 @@ a:active {
           </div>
 
         </div>
-        <div class="ui inverted vertical masthead center aligned segment" style="
+        <div class="ui vertical masthead center aligned segment" style="
             height: 628px;
         ">
 
